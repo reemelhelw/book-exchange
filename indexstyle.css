@@ -1,0 +1,523 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+html{
+  scroll-behavior: smooth!important;
+}
+
+.logo {
+    line-height: 60px;
+    position: fixed;
+    float: right;
+    margin: 16px 40px;
+    font-weight: bold;
+    font-size: 20px;
+    letter-spacing: 2px;
+}
+.logo a{
+    color: white!important;
+}
+.logo a:hover {
+    color: #d4b483 !important;;
+}
+header{
+    letter-spacing: 1px!important;
+}
+.bookClubBodyColor{
+    background-color: #c7b18f!important;
+    height: 1000px;
+    
+   
+}
+
+    nav {
+        position: fixed;
+        width: 100%;
+        line-height: 60px;
+        z-index: 999;
+    }
+
+    nav ul {
+        line-height: 60px;
+        list-style: none;
+        background: rgba(0, 0, 0, 0);
+        overflow: hidden;
+        color:#023618;
+        padding: 0;
+        text-align: right;
+        margin: 0;
+        padding-right: 1px;
+        transition: 1s;
+    }
+
+    nav.black ul {
+        background: rgba(137,87,55,0.7);
+    }
+
+    nav ul li {
+        display: inline-block;
+        padding: 16px 25px;;
+    }
+
+    nav ul li a {
+        text-decoration: none;
+        color: #023618;
+        font-size: 16px;
+    }
+    nav ul li a:hover{
+        color: #D4B483;
+    }
+    .menu-icon {
+        line-height: 60px;
+        width: 100%;
+        background: #000;
+        text-align: right;
+        box-sizing: border-box;
+        padding: 15px 24px;
+        cursor: pointer;
+        color: #fff;
+        display: none;
+    }
+    .menu ul li a.btn{
+        color: #023618;
+    }
+    .menu ul li a.btn-success{
+        background-color: #d4b483;
+        border-color: #5E3023;
+        transition: 0.7s;
+    }
+    .menu ul li a.btn-success:hover{
+        background-color: #D4B483;
+        border-color: #D4B483;
+    }
+
+
+    .menu ul li a.btn-outline-success{
+    border-color: #D4B483;
+    transition: 0.7s;
+    --bs-btn-focus-shadow-rgb: 	212, 180, 131;
+    --bs-btn-disabled-color:#D4B483;
+        --bs-btn-active-color: #fff;
+        --bs-btn-active-bg: #D4B483;
+        --bs-btn-active-border-color: #D4B483;
+        --bs-btn-color: #D4B483;
+        --bs-btn-border-color: #D4B483;
+        --bs-btn-hover-color: #fff;
+        --bs-btn-hover-bg: #D4B483;
+        --bs-btn-hover-border-color: #D4B483;
+    }
+    .menu ul li a.btn-outline-success:hover{
+        background-color: #D4B483;
+
+        }
+
+    .checked {
+    color: orange;
+    }
+
+
+
+    .bg-image-mybooks{
+        background-image: url(../images/mybooks.jpg);
+        background-size: cover;
+        background-repeat: repeat;
+        background-position: top;
+        height: 300px;
+    }
+
+    .bg-image-mybooks-cover{
+        background-image: url(../images/mybooks.jpg);
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: top;
+        height: 100px;
+        width: 100%;
+    }
+
+
+
+
+
+
+    .bg-image-contactus{
+        background-image: url(../images/contactus.jpg);
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: top;
+        height: 900px;
+
+    }
+
+
+
+.mask{
+    width: 100%;
+    height: inherit;
+}
+
+/* book store card */
+.profile-card-5{
+    margin-top:20px;
+}
+
+.profile-card-5 .card-img-block {
+    width: 91%;
+    margin: 0 auto;
+    position: relative;
+    top: -20px;
+    
+}
+
+.profile-card-5 .card-img-block img{
+    border-radius:5px;
+    box-shadow:0 0 10px rgba(0,0,0,0.63);
+    height: 200px;
+}
+.profile-card-5 h5{
+    color:#4E5E30;
+    font-weight:600;
+    letter-spacing: 1px!important;
+}
+.profile-card-5 p{
+    font-size:14px;
+    font-weight:300;
+}
+.profile-card-5 .btn-primary{
+    background-color:#4E5E30;
+    border-color:#4E5E30;
+}
+.profileName{
+    letter-spacing: 1px!important;
+}
+.profileAvatar{
+    vertical-align: bottom;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+}
+button.right {
+    float: right;
+  }
+.card-body button:hover{
+    background-color: #023618;
+}
+.card-body button{
+    outline-color: #568259;
+    transition: 0.3s;
+}
+.bookClubCard{
+    transition: 0.7s;
+}
+.bookClubCard:hover{
+    transform:translateY(-12px);
+}
+footer{
+    letter-spacing: 1px!important;
+}
+.footerLinks a{
+    text-decoration: none!important;
+}
+.footerLinks a:hover{
+    text-decoration: underline!important;
+}
+.socialMedia a{
+    text-decoration: none!important;
+}
+.signUpForm{
+    margin-top: 9rem;
+}
+.signUpForm button.btn-success{
+    background-color: #5E3023;
+    border-color: #5E3023;
+    transition: 0.7s;
+    --bs-btn-focus-shadow-rgb: 	94,48,35;
+
+}
+@media(max-width: 1100px) {
+    .logo {
+          position: fixed;
+          top: 0;
+          margin-top: 16px;
+    }
+    nav ul {
+          max-height: 0px;
+          background: #000;
+          overflow: scroll;
+    }
+    nav.black ul {
+          background: #000;
+    }
+    .showing {
+          max-height: 34em;
+    }
+    nav ul li {
+          box-sizing: border-box;
+          width: 100%;
+          padding: 24px;
+          text-align: center;
+    }
+
+    .menu-icon {
+          display: block;
+    }
+    
+      
+}
+
+.col-4,
+  .col-8,
+  .col,
+  .col-md-10,
+  .col-md-12,
+  .col-lg-3,
+  .col-lg-4,
+  .col-lg-6,
+  .col-lg-7,
+  .col-xl-4,
+  .col-xl-6,
+  .col-xl-8 {
+    position: relative;
+    width: 100%;
+    min-height: 1px;
+    padding-right: 15px;
+    padding-left: 15px;
+  }
+  
+  .col {
+    max-width: 100%;
+    flex-basis: 0;
+    flex-grow: 1;
+  }
+  
+  .col-4 {
+    max-width: 33.33333%;
+    flex: 0 0 33.33333%;
+  }
+  
+  .col-8 {
+    max-width: 66.66667%;
+    flex: 0 0 66.66667%;
+  }
+  
+  @media (min-width: 768px) {
+  
+    .col-md-10 {
+      max-width: 83.33333%;
+      flex: 0 0 83.33333%;
+    }
+  
+    .col-md-12 {
+      max-width: 100%;
+      flex: 0 0 100%;
+    }
+  }
+  
+  @media (min-width: 992px) {
+  
+    .col-lg-3 {
+      max-width: 25%;
+      flex: 0 0 25%;
+    }
+  
+    .col-lg-4 {
+      max-width: 33.33333%;
+      flex: 0 0 33.33333%;
+    }
+  
+    .col-lg-6 {
+      max-width: 50%;
+      flex: 0 0 50%;
+    }
+  
+    .col-lg-7 {
+      max-width: 58.33333%;
+      flex: 0 0 58.33333%;
+    }
+  
+    .order-lg-2 {
+      order: 2;
+    }
+  }
+  
+  @media (min-width: 1200px) {
+  
+    .col-xl-4 {
+      max-width: 33.33333%;
+      flex: 0 0 33.33333%;
+    }
+  
+    .col-xl-6 {
+      max-width: 50%;
+      flex: 0 0 50%;
+    }
+  
+    .col-xl-8 {
+      max-width: 66.66667%;
+      flex: 0 0 66.66667%;
+    }
+  
+    .order-xl-1 {
+      order: 1;
+    }
+  
+    .order-xl-2 {
+      order: 2;
+    }
+  }
+  
+
+
+.gallery {
+    margin-top: -50px;
+    box-sizing: border-box;
+    padding: 0 50px;
+    overflow: hidden;
+}
+.gallery img {
+    margin: 5px;
+}
+.left {
+    float: left;
+    width: 48%;
+    height: 50px;
+    margin-right: 5px;
+}
+.left img {
+   
+    display: block;
+    width: 100%;
+    
+    
+}
+
+.carousel{
+  margin-top:-10px;
+}
+
+.title {
+  text-align: center;
+  font-size: 4vmin;
+  color: indianred;
+}
+.row {
+ display: flex;
+ align-items: center;
+ width: 100%;
+ justify-content: space-between;
+
+}
+.row .col {
+ display: flex;
+ flex-direction: column;
+ align-items: center;
+}
+.bestsellers .row{
+ margin-top: 5epx;
+}
+.events .ctn{
+margin-top: 30px;
+}
+
+.ctn {
+  padding: 8px 15px;
+  background:#568259;
+  border-radius: 30px;
+   color:#d4b483;
+}
+
+h4 {
+  font-size: 3vmin;
+  color: #023618 !important;
+  margin: 20px auto;
+}
+p
+{color:#4E5E30 !important;
+padding: Opx 40px;
+}
+
+.explore {
+  width: 100%;
+  height: 80vh;
+  background-image: url('./img/authors.jpg');
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  display: flex;
+  align-items: center;
+  opacity: 75%;
+}
+.explore-content {
+  width: 60%;
+  padding: 50px;
+   color: lavenderblush;
+   display: flex;
+   align-items: center;
+   flex-direction: column;
+}
+.explore-content h1 {
+  font-size: 7vmin;
+  }
+.explore-content line{
+  margin-bottom: 50px;
+}
+.explore-content p {
+  color: whitesmoke;
+  background: indianred;
+  border-radius: 10px;
+  padding: 8px 15px;
+}
+.explore-content .ctn {
+  margin-top: 40px;
+}
+.content-col {
+  width: 40%;
+}
+.image-col {
+  width: 60;
+}
+.home .image-gallery{
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+  align-items: center;
+}
+.image-gallery img {
+  max-width: 100px;
+  margin: 10px;
+}
+.content-col h1{
+  font-size: 7vmin;
+   color: burlywood;
+}
+.content-col .line {
+  margin-left: -1px;
+}
+.content-col p{
+  padding: 0;
+  margin: 30px auto;
+}
+.content-col .ctn{
+  margin-left: -230px;
+}
+
+a {
+  text-decoration: none;
+  padding-bottom: 10px;
+  color: #d4b483;
+  
+}
+
+.ctn:hover {
+  background:#d4b483;
+  color:#568259;
+  box-shadow: 2px 2px 5px #00000056;
+
+}
+.active {
+  color:#568259;
+  text-decoration: underline;
+  font-weight: bold;
+}
+
+h1
+{
+  color:#568259;
+}

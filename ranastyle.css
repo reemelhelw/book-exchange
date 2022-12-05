@@ -1,0 +1,269 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+
+html{
+    scroll-behavior: smooth!important;
+}
+.logo {
+    line-height: 60px;
+    position: fixed;
+    float: left;
+    margin: 16px 46px;
+    font-weight: bold;
+    font-size: 20px;
+    letter-spacing: 2px;
+}
+.logo a{
+    color: white!important;
+}
+.logo a:hover {
+    color: #d4b483 !important;;
+}
+header{
+    letter-spacing: 1px!important;
+}
+.bookClubBodyColor{
+    background-color: #c7b18f!important;
+    height: 1000px;
+}
+
+nav {
+    position: fixed;
+    width: 100%;
+    line-height: 60px;
+    z-index: 999;
+}
+
+nav ul {
+    line-height: 60px;
+    list-style: none;
+    background: rgba(0, 0, 0, 0);
+    overflow: hidden;
+    color: #fff;
+    padding: 0;
+    text-align: right;
+    margin: 0;
+    padding-right: 1px;
+    transition: 1s;
+}
+
+nav.black ul {
+    background: rgba(137,87,55,0.7);
+}
+
+nav ul li {
+    display: inline-block;
+    padding: 16px 40px;;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 16px;
+}
+nav ul li a:hover{
+    color: #D4B483;
+}
+.menu-icon {
+    line-height: 60px;
+    width: 100%;
+    background: #000;
+    text-align: right;
+    box-sizing: border-box;
+    padding: 15px 24px;
+    cursor: pointer;
+    color: #fff;
+    display: none;
+}
+.menu ul li a.btn{
+    color: #fff;
+}
+.menu ul li a.btn-success{
+    background-color: #5E3023;
+    border-color: #5E3023;
+    transition: 0.7s;
+}
+.menu ul li a.btn-success:hover{
+    background-color: #D4B483;
+    border-color: #D4B483;
+}
+.menu ul li a.btn-outline-success{
+border-color: #D4B483;
+transition: 0.7s;
+--bs-btn-focus-shadow-rgb: 	212, 180, 131;
+--bs-btn-disabled-color:#D4B483;
+    --bs-btn-active-color: #fff;
+    --bs-btn-active-bg: #D4B483;
+    --bs-btn-active-border-color: #D4B483;
+    --bs-btn-color: #D4B483;
+    --bs-btn-border-color: #D4B483;
+    --bs-btn-hover-color: #fff;
+    --bs-btn-hover-bg: #D4B483;
+    --bs-btn-hover-border-color: #D4B483;
+}
+.menu ul li a.btn-outline-success:hover{
+    background-color: #D4B483;
+
+    }
+    .bg-image{
+    background-image: url(../images/welcome-book-club.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: top;
+    height: 500px;
+}
+.bg-image-login{
+    background-image: url(../images/login.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: top;
+    height: 900px;
+
+}
+.bg-image-registration{
+    background-image: url(../images/signup-banner.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: top;
+    height: 900px;
+
+}
+.bg-image-AboutUs{
+    background-image: url(../images/bg_about.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: top;
+    height: 300px;
+}
+.mask{
+    width: 100%;
+    height: inherit;
+}
+
+/* book club card */
+.profile-card-5{
+    margin-top:20px;
+}
+
+.profile-card-5 .card-img-block {
+    width: 91%;
+    margin: 0 auto;
+    position: relative;
+    top: -20px;
+    
+}
+
+.profile-card-5 .card-img-block img{
+    border-radius:5px;
+    box-shadow:0 0 10px rgba(0,0,0,0.63);
+    height: 200px;
+}
+.profile-card-5 h5{
+    color:#4E5E30;
+    font-weight:600;
+    letter-spacing: 1px!important;
+}
+.profile-card-5 p{
+    font-size:14px;
+    font-weight:300;
+}
+.profile-card-5 .btn-primary{
+    background-color:#4E5E30;
+    border-color:#4E5E30;
+}
+.profileName{
+    letter-spacing: 1px!important;
+}
+.profileAvatar{
+    vertical-align: bottom;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+}
+button.right {
+    float: right;
+  }
+
+.card-body button{
+    transition: 0.3s;
+}
+.bookClubCard{
+    transition: 0.7s;
+}
+.bookClubCard:hover{
+    transform:translateY(-12px);
+}
+footer{
+    letter-spacing: 1px!important;
+}
+.footerLinks a{
+    text-decoration: none!important;
+}
+.footerLinks a:hover{
+    text-decoration: underline!important;
+}
+.socialMedia a{
+    text-decoration: none!important;
+}
+.signUpForm{
+    margin-top: 9rem;
+}
+.signUpForm button.btn-success{
+    background-color: #5E3023;
+    border-color: #5E3023;
+    transition: 0.7s;
+    --bs-btn-focus-shadow-rgb: 	94,48,35;
+
+}
+
+.ourTeam{
+    background-color:#d9cab1; 
+}
+.donate button.btn-outline-dark{
+    transition: 0.5s;
+}
+.supportStory{
+    background-color: rgba(137,87,55,0.5);
+}
+@media(max-width: 1200px) {
+    .card-text{
+        min-height: 7rem;
+    }
+}
+
+@media(max-width: 1100px) {
+    .card-text{
+        min-height: 9.5rem;
+    }
+    .logo {
+          position: fixed;
+          top: 0;
+          margin-top: 16px;
+    }
+    nav ul {
+          max-height: 0px;
+          background: #000;
+          overflow: scroll;
+    }
+    nav.black ul {
+          background: #000;
+    }
+    .showing {
+          max-height: 34em;
+    }
+    nav ul li {
+          box-sizing: border-box;
+          width: 100%;
+          padding: 24px;
+          text-align: center;
+    }
+
+    .menu-icon {
+          display: block;
+    }
+
+}
+@media(max-width: 768px) {
+    .card-text{
+        min-height: 0rem;
+    }
+}
